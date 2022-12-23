@@ -24,3 +24,17 @@
 .right {
     transform: rotate(90deg);
 }
+.pointer{
+    width: 1px;
+    position: absolute;
+    top: 0px;
+    left: 24.5px;
+    height: 1px;
+    background-color: rgb(255, 250, 110);
+}
+.bullet{
+    height: 10px;
+    width: 3px;
+    position: absolute;
+    background-color: dimgray;
+}
