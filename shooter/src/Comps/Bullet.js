@@ -1,10 +1,10 @@
 import styles from './extra/design.module.css'
 
-export const Bullet = (posX, posY, direction, velocity) => {
+export const Bullet = ({posX, posY, direction}) => {
   return (
     <div
-      className={[styles.bullet, styles[direction]].join('')}
-      style={{ top: posY * 10 + 'px', left:posX * 10 + 'px' }}
+      className={[styles.bullet]}
+      style={{ top: posY + 'px', left:posX + 'px' }}
     ></div>
   )
 }
